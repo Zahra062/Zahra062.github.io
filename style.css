@@ -1,13 +1,13 @@
 body{
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
-    background-color: thistle;
+    background-color:#f9cdad;
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One",sans-serif;
+    font-family: "Jacques Francois Shadow",sans-serif;
     width: 16%;
     text-shadow:
     1px 1px 0px  black,
@@ -26,16 +26,23 @@ ul {
 }
 
 body>header{
-    background-color: lightblue;
-    color: cornflowerblue;
+    background-color: #D09E88;
+    color: #6f3826;
     display: flex;
-    height: 13vh;
+    height: 16vh;
     align-items: center;
     justify-content: space-around;
 }
 
+#aside{
+    color: white;
+    
+}
+
+
 #nav-ul{
     display: flex;
+
 }
 
 #nav-ul>li {
@@ -80,12 +87,18 @@ h2 {
 }
 
 body>footer {
-    background-color: orange;
+    background-color:#D09E88;
     display: flex;
 }
 
 img {
-    border-radius: 50%;
+    border-radius:30%;   
+}
+
+#head-image{
+    border-radius: 60%;
+    display: flex;
+    height: 16vh;
 }
 
 #footer-ul{
