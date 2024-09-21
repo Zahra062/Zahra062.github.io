@@ -9,7 +9,7 @@ body{
     padding: 8px;
     font-family: "Jacques Francois Shadow",sans-serif;
     width: 16%;
-    color: #6E260E;
+    color: #6e260e;
     text-shadow:
     1px 1px 0px  black
     -1px 1px 0px black,
@@ -155,4 +155,8 @@ img {
 #footer-ul>div>li>a {
     color:wheat;
     text-decoration:none ;
+}
+
+#footer-title{
+    font-family: Acme, serif;
 }
